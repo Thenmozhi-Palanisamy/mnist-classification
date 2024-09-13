@@ -111,7 +111,7 @@ x_single_prediction = np.argmax(
     model.predict(img_28_gray_scaled.reshape(1,28,28,1)),
      axis=1)
 print(x_single_prediction)
-print('212221230033 HARIDHARSHINI.S')
+print('212221230033 THENMOZHI P')
 plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
 img_28_gray_inverted = 255.0-img_28_gray
 img_28_gray_inverted_scaled = img_28_gray_inverted.numpy()/255.0
